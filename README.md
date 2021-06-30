@@ -48,6 +48,17 @@ For this project, we applied various machine learning models to predict credit r
  <img src="images/undersampling.png">
 </p>
 
+- The balanced accuracy score for the Undersampling model was 0.544
+  - i.e., our model was 54.4 % accurate
+- The precision for high-risk loans was 1 %
+  - Out of the 10,410 loans that were predicted to be high-risk, only 70 were actually high-risk
+- The sensitivity for high-risk loans was 69 %
+  - Out of the 101 risky loans, 70 were predicted correctly as high-risk loans
+- The precision for low-risk loans was 100 %
+  - Out of the 6,795 loans that were predicted to be low-risk, 6,764 were actually low-risk
+- The sensitivity for low-risk loans was 40 %
+  - Out of the 17,104 safe loans, 6,764 were predicted correctly as low-risk loans
+
 
 <h3 align="center"> Combination Sampling </h3>
 <p align = "center">
