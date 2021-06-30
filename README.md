@@ -98,6 +98,16 @@ For this project, we applied various machine learning models to predict credit r
  <img src="images/ez_boost.png">
 </p>
 
+- The balanced accuracy score for the Easy Ensemble AdaBoost Classifier model was 0.932
+  - i.e., our model was 93.2 % accurate
+- The precision for high-risk loans was 9 %
+  - Out of the 1,076 loans that were predicted to be high-risk, only 93 were actually high-risk
+- The sensitivity for high-risk loans was 92 %
+  - Out of the 101 risky loans, 93 were predicted correctly as high-risk loans
+- The precision for low-risk loans was 100 %
+  - Out of the 16,129 loans that were predicted to be low-risk, 16,121 were actually low-risk
+- The sensitivity for low-risk loans was 94 %
+  - Out of the 17,104 safe loans, 16,121 were predicted correctly as low-risk loans
 
 ## Summary
 
