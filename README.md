@@ -15,6 +15,16 @@ For this project, we applied various machine learning models to predict credit r
  <img src="images/oversampling.png">
 </p>
 
+- The balanced accuracy score for the Naive Random Oversampling model was 0.662
+  - i.e., our model was 66.2% accurate
+- The precision for high-risk loans was 1 %
+  - Out of the 6,723 loans that were predicted to be high-risk, only 72 were actually high-risk
+- The sensitivity for high-risk loans was 71 %
+  - Out of the 101 risky loans, 72 were predicted correctly as high-risk loans
+- The precision for low-risk loans was 100 %
+  - Out of the 10,482 loans that were predicted to be low-risk, 10,453 were actually low-risk
+- The sensitivity for low-risk loans was 61 %
+  - Out of the 17,104 safe loans, 10,453 were predicted correctly as low-risk loans
 
 <h3 align="center"> SMOTE Oversampling </h3>
 <p align = "center">
