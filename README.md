@@ -65,6 +65,16 @@ For this project, we applied various machine learning models to predict credit r
  <img src="images/combo_sampling.png">
 </p>
 
+- The balanced accuracy score for the Combination Sampling model was 0.666
+  - i.e., our model was 66.6 % accurate
+- The precision for high-risk loans was 1 %
+  - Out of the 7,106 loans that were predicted to be high-risk, only 75 were actually high-risk
+- The sensitivity for high-risk loans was 74 %
+  - Out of the 101 risky loans, 75 were predicted correctly as high-risk loans
+- The precision for low-risk loans was 100 %
+  - Out of the 10,099 loans that were predicted to be low-risk, 10,073 were actually low-risk
+- The sensitivity for low-risk loans was 59 %
+  - Out of the 17,104 safe loans, 10,073 were predicted correctly as low-risk loans
 
 <h3 align="center"> Balanced Random Forest Classifier </h3>
 <p align = "center">
