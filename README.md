@@ -1,5 +1,6 @@
 # Credit_Risk_Analysis
 ## Project Overview
+For this project, we applied various machine learning models to predict credit risk with imbalanced-learn and scikit-learn. Given a dataset with many features, we created models to classify the target variable as low-risk or high-risk applicants. We applied several models to the same dataset due to the complex nature of credit risk, specifically the unbalanced classification problem where good loans outweigh risky loans in the dataset. The class imbalance creates a situation where the models are better at predicting one class than the other.  Therefore, we applied models to handle the classification problem such as oversampling, SMOTE,  and undersampling. We then used models that help reduce bias and compared the results of all the models to determine which one was the best for predicting credit risk. 
 
 ## Resources
 - Python 3.7.6
