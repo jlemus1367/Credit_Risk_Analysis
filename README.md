@@ -111,3 +111,9 @@ For this project, we applied various machine learning models to predict credit r
 
 ## Summary
 
+After running all six models, it appears that they all have very low precision for predicting high-risk loans. The models incorrectly label low-risk applicants as high risk more often than not. Both oversampling models performed similarly with an accuracy of 66 percent, and the undersampling model performed the worst with an accuracy score of 54  percent. Using a combination of oversampling and undersampling to compensate for unbalanced classes did not make much of a difference regarding the accuracy score. However, the sensitivity for accurately detecting high-risk applicants from the actual pool of high-risk applicants was slightly better. 
+
+The random forest and ensemble boost models used to reduce bias performed strikingly better than the other models. They had accuracy scores of 78 percent and 93 percent, respectively. Their precision for detecting high-risk loans was better than all other models. The ensemble model had the best precision and sensitivity for high-risk loans. However, we must also be cautious of the potential overfitting that may have occurred with these models.
+
+In the context of credit lending, it is more critical that we correctly pedict high-risk applicants from the pool of applicants who are actually high risk, so sensitivity is more important than precision. However, the precision for predicting high-risk loan applicants is way too low for all of our models. By wrongfully overmarking those who are low-risk as high-risk, we miss out on potential revenue. As a result, non of the models are ideal for detecting credit risk. 
+
