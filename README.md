@@ -31,6 +31,17 @@ For this project, we applied various machine learning models to predict credit r
  <img src="images/smote.png">
 </p>
 
+- The balanced accuracy score for the SMOTE Oversampling model was 0.663
+  - i.e., our model was 66.3% accurate
+- The precision for high-risk loans was 1 %
+  - Out of the 5,321 loans that were predicted to be high-risk, only 64 were actually high-risk
+- The sensitivity for high-risk loans was 63 %
+  - Out of the 101 risky loans, 64 were predicted correctly as high-risk loans
+- The precision for low-risk loans was 100 %
+  - Out of the 11,884 loans that were predicted to be low-risk, 11,847 were actually low-risk
+- The sensitivity for low-risk loans was 69 %
+  - Out of the 17,104 safe loans, 11,847 were predicted correctly as low-risk loans
+
 
 <h3 align="center"> Undersampling </h3>
 <p align = "center">
