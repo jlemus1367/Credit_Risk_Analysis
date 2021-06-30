@@ -81,6 +81,17 @@ For this project, we applied various machine learning models to predict credit r
  <img src="images/random_forest.png">
 </p>
 
+- The balanced accuracy score for the Balanced Random Forest Classifier model was 0.789
+  - i.e., our model was 78.9 % accurate
+- The precision for high-risk loans was 3 %
+  - Out of the 2,224 loans that were predicted to be high-risk, only 71 were actually high-risk
+- The sensitivity for high-risk loans was 70 %
+  - Out of the 101 risky loans, 71 were predicted correctly as high-risk loans
+- The precision for low-risk loans was 100 %
+  - Out of the 14,981 loans that were predicted to be low-risk, 14,951 were actually low-risk
+- The sensitivity for low-risk loans was 87 %
+  - Out of the 17,104 safe loans, 14,951 were predicted correctly as low-risk loans
+
 
 <h3 align="center"> Easy Ensemble AdaBoost Classifier </h3>
 <p align = "center">
